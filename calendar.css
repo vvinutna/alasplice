@@ -1,0 +1,28 @@
+h1 {
+    color: #000;
+    font-size:36px; 
+    font-family: "Lato", sans-serif; 
+	font-weight: bold;  
+	margin-top: 60px;
+    margin-left: 210px;
+}
+body {
+    background-image: url("calendarBackground.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+form {
+    font-size: 20px;
+}
+
+.calendar {
+	margin-left: 400px;
+	margin-top: 150px;
+	position: absolute;
+}
+
+.eventButton {
+	margin-top: 200px;
+	margin-left: 100px;
+	position: absolute;
+}

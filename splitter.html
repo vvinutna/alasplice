@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+</html>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="widgets.css">
+<link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,400italic,300italic,600italic,700' rel='stylesheet' type='text/css'>
+
+<script type="text/javascript" src="splitter.js"></script>
+
+<body id="main">
+
+<div class="menu">
+
+    <div class="menu-item"><a href="index.html">Home</a></div>
+    <div class="menu-item"><a href="splitter.html">Split the Bill</a></div>
+    <div class="menu-item"><a href="weekly.html">Weekly Groceries</a></div>
+    <div class="menu-item"><a href="list.html">Grocery List</a></div>
+    <div class="menu-item"><a href="calendar.html">Calendar</a></div>
+    <div class="menu-item splice" style="margin-left: 300px;">&agrave la splice</div>
+  
+</div>
+
+
+<div class="page">
+
+	<div class="info">
+
+		<div class="agile-info_w3ls hvr-buzz-out">
+				<h3>Add Item</h3>
+				<div class="agile-info_w3ls_grid">
+					<form action="#" method="post">
+						<input type="text" id="item" placeholder="Item" required=" ">
+						<input type="number" step="any" id="price" placeholder="Price" required=" ">
+
+						<div class="check">
+							<label class="checkbox"><input type="checkbox" name="alice" id="aliceCheck"><i> </i>Alice</label>
+						</div>
+
+						<div class="check">
+							<label class="checkbox"><input type="checkbox" name="archana" id="archanaCheck"><i> </i>Archana</label>
+						</div>
+
+						<div class="check">
+							<label class="checkbox"><input type="checkbox" name="vinutna" id="vinutnaCheck"><i> </i>Vinutna</label>
+						</div>
+
+						<div class="check">
+							<label class="checkbox"><input type="checkbox" name="isha" id="ishaCheck"><i> </i>Isha</label>
+						</div>
+
+						<input type="submit" onclick="newElement()" value="Add">
+					</form>
+				</div>
+			</div>
+
+			<div class="listTitle"><div style="text-align: center; margin-top: 10px">Items Bought</div></div>
+			<div class="groceryList"> 
+
+				  <ul id="myUL">
+
+  				  </ul>
+			</div>
+	 </div>
+
+
+	<div class="splitTotals">
+		<div class="personalTotal" id="alice">
+			<div class="totalTitle">Alice's Total:</div>
+			<div class="totalNum" id="aliceTotalNum">$0.00</div>
+		</div>
+
+		<div class="personalTotal" id="archana">
+			<div class="totalTitle">Archana's Total:</div>
+			<div class="totalNum" id="archanaTotalNum">$0.00</div>
+		</div>
+
+		<div class="personalTotal" id="vinutna">
+			<div class="totalTitle">Vinutna's Total:</div>
+			<div class="totalNum" id="vinutnaTotalNum">$0.00</div>
+		</div>
+
+		<div class="personalTotal" id="isha">
+			<div class="totalTitle">Isha's Total:</div>
+			<div class="totalNum" id="ishaTotalNum">$0.00</div>
+		</div>
+
+
+	</div>
+
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
